@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        { 
+            "title": "blog-1", 
+            "body": "loreum ipsum", 
+            "author": "person-1", 
+            "id": 1
+        },
+        { 
+            "title": "blog-2", 
+            "body": "loreum ipsum", 
+            "author": "person-2", 
+            "id": 2
+        },
+        { 
+            "title": "blog-3", 
+            "body": "loreum ipsum", 
+            "author": "person-1", 
+            "id": 3
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+
+    // let [name, setName] = useState("John Smith")
+
+    // const handleClick = (e) => {
+    //     console.log("Hello");
+    //     setName("Bob")
+    //     console.log(e);
+    // }
+
+    // const handleParameterFunc = (text, e) => {
+    //     console.log(text);
+    //     console.log(e.target);
+    // }
+
+    // const [blogs, setBlogs] = useState([
+    //     { title: "blog-1", body: "loreum ipsum", author: "person-1", id: 1},
+    //     { title: "blog-2", body: "loreum ipsum", author: "person-2", id: 2},
+    //     { title: "blog-3", body: "loreum ipsum", author: "person-1", id: 3},
+    // ])
+
+    // const [name, setName] = useState("John")
+
+    // get executed after every DOM render
+    // if empty array is passed has second parameter then it only executes once at start (first render)
+    // when name is passed then it is executed when state is changed for that variable(parameter)
+    // useEffect(() => {
+        //     console.log("Use effect");
+        // }, [name])
+        
+    // const handleBlogDelete = (id) => {
+    //     setBlogs(blogs.filter(blog => blog.id !== id) )
+    // }
+
+    // const [blogs, setBlogs] = useState(null)
+    // const [isLoading, setIsLoading] = useState(true)
+    // const [error, setError] = useState(null)
+
+    // Promise
+    // useEffect(() => {
+    //     fetch("http://localhost:8000/blogs")
+    //         .then(response => {
+    //             if (!response.ok) {
+    //                 throw Error("Blogs not found")
+    //             }
+    //             return response.json()
+    //         })
+    //         .then(data => {
+    //             console.log(data);
+    //             setBlogs(data)
+    //             setIsLoading(false)
+    //             setError(null)
+    //         })
+    //         .catch(error => {
+    //             console.error(error.message);
+    //             setError(error.message)
+    //             setIsLoading(false)
+    //         })
+    // }, [])
+
+
+    {/*  handleBlogDelete={handleBlogDelete} */}
+    {/* <BlogList blogs={ blogs.filter((blog) => blog.author === 'person-1') } title="Person-1 blogs!" handleBlogDelete={handleBlogDelete}  /> */}
+
+    {/* <h2>Home Page</h2> */}
+    {/* <h3>{ name }</h3> */}
+    {/* <button onClick={handleClick}>Button</button> */}
+    {/* <button onClick={(e) => handleParameterFunc("Bob", e)}>Parameter Button</button> */}
+    {/* <button onClick={() => setName("Bob")}>Use Effect</button>
+    <p>{ name }</p> */}
