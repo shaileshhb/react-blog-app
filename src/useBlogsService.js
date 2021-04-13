@@ -13,7 +13,7 @@ const useBlogsService = (url) => {
         const abortConst = new AbortController()
 
         setTimeout(() => {
-            fetch(url, { signal: abortConst.signal })
+            fetch(`${url}`, { signal: abortConst.signal })
             .then(response => {
                 if (!response.ok) {
                     throw Error("Data not found")
